@@ -3,7 +3,7 @@ FROM slafs/sentry
 MAINTAINER Lukas Juhrich der Große <lukasjuhrich@wh2.tu-dresden.de>
 
 
-RUN pip install -U sentry-ldap-auth
+RUN pip install sentry-ldap-auth
 
 ADD sentry_docker_agdsn_conf.py /conf/
 
